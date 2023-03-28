@@ -1,6 +1,6 @@
 /*------head-----------*/
 .head {
-  background-color: #0f3460;
+  background-color: #0C3E99;
   padding: 10px 0;
   color: #fff;
 }
@@ -26,7 +26,7 @@
 .search-box {
   width: 80%;
   border: 2px solid rgba(0, 0, 0, 0.1);
-  /*padding: 10px;*/
+  /* padding: 10px; */
   border-radius: 50px;
 }
 .search-box i {
@@ -69,39 +69,23 @@
   justify-content: end;
 }
 /*------search-----------*/
-.catgrories {
-  background-color: #f6f9fc;
-  padding: 0px 30px;
-  border-radius: 5px;
-  height: 6vh;
-  margin-top: 5px;
-}
-.catgrories span {
-  margin-right: 20px;
-  font-size: 30px;
-  margin-top: 10px;
-}
-.catgrories h4 {
-  font-weight: 500;
-  margin-top: 12px;
-}
-.catgrories h4 i {
-  margin-left: 10px;
-}
+
 header {
   height: 8vh;
-  box-shadow: -1px 15px 17px -8px rgba(0, 0, 0, 0.1);
+  box-shadow: -1px 15px 17px -8px rgba(255, 0, 0, 0.1);
 }
 header ul {
   line-height: 8vh;
 }
 header ul li {
   margin-left: 30px;
+  
 }
 header ul li a {
   transition: 0.5s;
   font-size: 15px;
   font-weight: 400;
+  
 }
 header ul li a:hover {
   color: #ff014f;

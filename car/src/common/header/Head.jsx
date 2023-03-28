@@ -7,16 +7,16 @@ const Head = () => {
         <div className='container d_flex'>
           <div className='left row'>
             <i className='fa fa-phone'></i>
-            <label> 00960000000</label>
+            <label> 00964000</label>
             <i className='fa fa-envelope'></i>
-            <label> autocars2023@gmail.com</label>
+            <label> AutoCards.com</label>
           </div>
           <div className='right row RText'>
             <label>Need Help?</label>
             <span>🏳️‍⚧️</span>
             <label>EN</label>
             <span>🏳️‍⚧️</span>
-            <label>Ar</label>
+            <label>USD</label>
           </div>
         </div>
       </section>
