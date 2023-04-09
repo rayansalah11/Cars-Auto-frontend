@@ -54,8 +54,7 @@ window.addEventListener("scroll", () =>{
               color: "#fff",
             }}
           >
-            Welcome to our shop...You can find anything in here as your
-            favourites..
+            Welcome to our shop...Welcome to our shop...Welcome to our shop...
           </span>
         </div>
       </div>
