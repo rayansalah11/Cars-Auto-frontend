@@ -54,7 +54,7 @@ window.addEventListener("scroll", () =>{
               color: "#fff",
             }}
           >
-            Welcome to our shop...Welcome to our shop...Welcome to our shop...
+            Welcome to our shop...Welcome to our shop...
           </span>
         </div>
       </div>
@@ -88,7 +88,7 @@ window.addEventListener("scroll", () =>{
         >
           <strong style={{
             padding:"0px 5px"
-          }}>Email:</strong> temp123@gmail.com
+          }}>Email:</strong> autocars@gmail.com
         </span>
       </div>
     </div>
