@@ -52,6 +52,7 @@ const Home = () => {
                     fontFamily: "Segoe Script",
                     fontSize: "3em",
                     fontWeight: "500",
+                    color: "white",
                   }}
                 >
                   Buy 2 Get
@@ -59,7 +60,6 @@ const Home = () => {
                 <span
                   style={{
                     padding: "10px",
-                    backgroundColor: "#fff",
                     margin: "0px 10px",
                     textAlign: "center",
                     width: "150px",
@@ -84,7 +84,7 @@ const Home = () => {
                     color: "#fff",
                   }}
                 >
-                  Fashionable
+                  Quality parts
                 </h2>
               </div>
               <div>
@@ -97,7 +97,7 @@ const Home = () => {
                     lineHeight: ".7",
                   }}
                 >
-                  Collection
+                  unbeatable prices
                 </h2>
               </div>
               <div>
@@ -110,7 +110,7 @@ const Home = () => {
                     paddingTop: "10px",
                   }}
                 >
-                  Get Free Shipping on all orders over $99.00
+                  Get Free Shipping on all orders over $100
                 </h2>
               </div>
               <div>
@@ -118,8 +118,8 @@ const Home = () => {
                   <button
                     type="submit"
                     style={{
-                      width: "135px",
-                      height: "50px",
+                      width: "160px",
+                      height: "70px",
                       border: "none",
                       background: "#3BB77E",
                       margin: "10px 0",
