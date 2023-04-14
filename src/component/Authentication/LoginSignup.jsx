@@ -126,4 +126,9 @@ const LoginSignup = ({ history, location }) => {
                     onChange={(e) => setLoginEmail(e.target.value)}
                   />
                 </div>
-          
+                <div className="loginPassword">
+                  <LockOpenIcon />
+                  <input
+                    type="password"
+                    placeholder="Password"
+            
