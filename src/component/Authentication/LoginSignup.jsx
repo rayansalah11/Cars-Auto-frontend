@@ -62,4 +62,15 @@ const LoginSignup = ({ history, location }) => {
           setAvatarPreview(reader.result);
           setAvatar(reader.result);
         }
-   
+      };
+
+      reader.readAsDataURL(e.target.files[0]);
+    } else {
+      setUser({ ...user, [e.target.name]: e.target.value });
+    }
+  };
+
+  const redirect = location.search ? location.search.split("=")[1] : "/";
+
+  useEffect(() => {
+  
