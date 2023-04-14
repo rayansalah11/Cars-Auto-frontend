@@ -192,4 +192,10 @@ const LoginSignup = ({ history, location }) => {
                     onChange={registerDataChange}
                   />
                 </div>
-                <inpu
+                <input type="submit" value="Register" className="signUpBtn" />
+              </form>
+            </div>
+          </div>
+          <div></div>
+          <ToastContainer
+            position="b
