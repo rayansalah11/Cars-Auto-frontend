@@ -42,4 +42,6 @@ const LoginSignup = ({ history, location }) => {
   };
 
   const registerSubmit = (e) => {
-  
+    e.preventDefault();
+
+    const myForm = new FormData();
