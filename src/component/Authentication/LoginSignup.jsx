@@ -26,3 +26,11 @@ const LoginSignup = ({ history, location }) => {
     email: "",
     password: "",
   });
+
+  const { name, email, password } = user;
+
+  const loginTab = useRef(null);
+  const registerTab = useRef(null);
+  const switcherTab = useRef(null);
+
+ 
