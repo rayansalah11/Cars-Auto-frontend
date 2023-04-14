@@ -143,4 +143,8 @@ const LoginSignup = ({ history, location }) => {
                 </Link>
               </form>
 
-              
+              <form
+                className="signUpForm"
+                ref={registerTab}
+                encType="multipart/form-data"
+               
