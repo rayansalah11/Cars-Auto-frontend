@@ -181,4 +181,11 @@ const LoginSignup = ({ history, location }) => {
                     value={password}
                     onChange={registerDataChange}
                   />
-                <
+                </div>
+
+                <div id="registerImage">
+                  <img src={avatarPreview} alt="Avatar Preview" />
+                  <input
+                    type="file"
+                    name="avatar"
+                   
