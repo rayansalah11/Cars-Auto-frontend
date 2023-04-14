@@ -198,4 +198,8 @@ const LoginSignup = ({ history, location }) => {
           </div>
           <div></div>
           <ToastContainer
-            position="b
+            position="bottom-center"
+            autoClose={5000}
+            hideProgressBar={false}
+            newestOnTop={false}
+            closeOnClick
