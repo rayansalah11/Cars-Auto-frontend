@@ -24,9 +24,9 @@ window.addEventListener("scroll", () =>{
     {/* Header TopBar */}
     <div className="Header__topbar space__beetween">
       {/* Topbar Left */}
-      <div className="logo pxy__10">
+      <div className="logo pxy__10 ">
         <Link to="/">
-        <h1>LOGO</h1>
+        <h1>AutoCars</h1>
         </Link>
       </div>
       {/* Topbar Middle */}
@@ -49,13 +49,13 @@ window.addEventListener("scroll", () =>{
             overflow: "hidden",
           }}
         >
-          <span
+          {/* <span
             style={{
               color: "#fff",
             }}
           >
             Welcome to our shop...Welcome to our shop...
-          </span>
+          </span> */}
         </div>
       </div>
 

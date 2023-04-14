@@ -88,7 +88,7 @@ const Footer = () => {
              <Link to="/instagram.com"><h3>Instagram</h3></Link>
         </div>
       {/* Footer 4th part */}
-       <div className="footer__3rd__part">
+       <div className="footer__3rd__part ">
             <h5>Buiseness</h5>
              <Link to="/creator"><h3>Create A Seller Account</h3></Link>
              <Link to="/creator"><h3>Seller Rules</h3></Link>

@@ -13,7 +13,6 @@ import BottomTab from "../../more/BottomTab";
 import Loading from "../../more/Loader";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import Aabout from "./Aabout";
 
 const Home = () => {
   const dispatch = useDispatch();
@@ -136,8 +135,6 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <Aabout />
-
           <h2 className="homeHeading">Featured Products</h2>
           <div className="container" id="container">
             {products &&
@@ -156,6 +153,7 @@ const Home = () => {
             draggable
             pauseOnHover
           />
+          
           <Footer />
           <BottomTab />
         </>
