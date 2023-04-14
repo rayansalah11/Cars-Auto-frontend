@@ -21,3 +21,8 @@ const LoginSignup = ({ history, location }) => {
   const [loginEmail, setLoginEmail] = useState("");
   const [loginPassword, setLoginPassword] = useState("");
 
+  const [user, setUser] = useState({
+    name: "",
+    email: "",
+    password: "",
+  });
