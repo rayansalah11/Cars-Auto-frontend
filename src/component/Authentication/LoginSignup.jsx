@@ -167,4 +167,8 @@ const LoginSignup = ({ history, location }) => {
                     placeholder="Email"
                     required
                     name="email"
+                    value={email}
+                    onChange={registerDataChange}
+                  />
+                </div>
                
