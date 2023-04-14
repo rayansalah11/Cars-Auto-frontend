@@ -62,4 +62,4 @@ const LoginSignup = ({ history, location }) => {
           setAvatarPreview(reader.result);
           setAvatar(reader.result);
         }
-  
+   
