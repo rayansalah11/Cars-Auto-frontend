@@ -33,4 +33,8 @@ const LoginSignup = ({ history, location }) => {
   const registerTab = useRef(null);
   const switcherTab = useRef(null);
 
+  const [avatar, setAvatar] = useState("/profile.png");
+  const [avatarPreview, setAvatarPreview] = useState("/profile.png");
+
+  const loginSubmit = (e) => {
  
