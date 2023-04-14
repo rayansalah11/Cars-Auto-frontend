@@ -120,4 +120,10 @@ const LoginSignup = ({ history, location }) => {
                   <MailOutlineIcon />
                   <input
                     type="email"
+                    placeholder="Email"
+                    required
+                    value={loginEmail}
+                    onChange={(e) => setLoginEmail(e.target.value)}
+                  />
+                </div>
           
