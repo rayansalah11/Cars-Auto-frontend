@@ -10,3 +10,10 @@ import { clearErrors, login, register } from "../../actions/userAction";
 import MetaData from "../../more/Metadata";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+
+const LoginSignup = ({ history, location }) => {
+  const dispatch = useDispatch();
+
+  const { error, loading, isAuthenticated } = useSelector(
+    (state) => state.user
+  );
