@@ -203,3 +203,15 @@ const LoginSignup = ({ history, location }) => {
             hideProgressBar={false}
             newestOnTop={false}
             closeOnClick
+            rtl={false}
+            pauseOnFocusLoss
+            draggable
+            pauseOnHover
+          />
+        </>
+      )}
+    </>
+  );
+};
+
+export default LoginSignup;
