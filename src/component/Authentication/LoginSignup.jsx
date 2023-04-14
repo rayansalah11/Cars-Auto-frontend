@@ -147,4 +147,8 @@ const LoginSignup = ({ history, location }) => {
                 className="signUpForm"
                 ref={registerTab}
                 encType="multipart/form-data"
+                onSubmit={registerSubmit}
+              >
+                <div className="signUpName">
+                  <FaceIcon />
                
