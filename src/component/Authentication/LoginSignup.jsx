@@ -52,3 +52,7 @@ const LoginSignup = ({ history, location }) => {
     myForm.set("avatar", avatar);
     dispatch(register(myForm));
   };
+
+  const registerDataChange = (e) => {
+    if (e.target.name === "avatar") {
+      const reader = new FileReader();
