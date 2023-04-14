@@ -96,4 +96,11 @@ const LoginSignup = ({ history, location }) => {
       switcherTab.current.classList.remove("shiftToNeutral");
 
       registerTab.current.classList.add("shiftToNeutralForm");
-      
+      loginTab.current.classList.add("shiftToLeft");
+    }
+  };
+  return (
+    <>
+      {loading ? (
+        <Loader />
+      ) 
