@@ -151,4 +151,13 @@ const LoginSignup = ({ history, location }) => {
               >
                 <div className="signUpName">
                   <FaceIcon />
+                  <input
+                    type="text"
+                    placeholder="Name"
+                    required
+                    name="name"
+                    value={name}
+                    onChange={registerDataChange}
+                  />
+                </div>
                
