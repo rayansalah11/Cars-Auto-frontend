@@ -164,4 +164,7 @@ const LoginSignup = ({ history, location }) => {
                   <MailOutlineIcon />
                   <input
                     type="email"
+                    placeholder="Email"
+                    required
+                    name="email"
                
