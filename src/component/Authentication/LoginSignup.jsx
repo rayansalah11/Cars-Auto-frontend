@@ -175,4 +175,10 @@ const LoginSignup = ({ history, location }) => {
                   <LockOpenIcon />
                   <input
                     type="password"
-                 
+                    placeholder="Password"
+                    required
+                    name="password"
+                    value={password}
+                    onChange={registerDataChange}
+                  />
+                <
