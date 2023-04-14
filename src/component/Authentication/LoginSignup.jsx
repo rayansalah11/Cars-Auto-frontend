@@ -160,4 +160,8 @@ const LoginSignup = ({ history, location }) => {
                     onChange={registerDataChange}
                   />
                 </div>
+                <div className="signUpEmail">
+                  <MailOutlineIcon />
+                  <input
+                    type="email"
                
