@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import "./Home.css";
 import Carousel from "react-material-ui-carousel";
 import bg from "../../Assets/background.jpg";
-// import bg2 from "../../Assets/background2.jpg";
 import ProductCard from "../Products/ProductCard";
 import { useDispatch, useSelector } from "react-redux";
 import { clearErrors, getProduct } from "../../actions/ProductActions";
@@ -34,11 +33,9 @@ const Home = () => {
         <>
           <MetaData title="Home" />
           <Header />
-          {/* Carousel */}
           <div className="banner">
             <Carousel>
               <img src={bg} className="bgImg" />
-              {/* <img src={bg2} className="bgImg"/> */}
             </Carousel>
             <div className="home__content">
               <div
@@ -153,7 +150,6 @@ const Home = () => {
             draggable
             pauseOnHover
           />
-          
           <Footer />
           <BottomTab />
         </>

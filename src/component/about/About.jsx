@@ -28,7 +28,7 @@ const About = () => {
                 {/* 1st verse */}
                 <div className="row flex">
                   <div className="col__2">
-                    <img src="http://wp.alithemes.com/html/nest/demo/assets/imgs/page/about-1.png" />
+                    <img src="https://www.hitechautoparts.co.nz/resources/file/types_of_auto_parts.jpg" />
                   </div>
                   <div className="col__2">
                     <div className="meta">
@@ -39,27 +39,13 @@ const About = () => {
                           lineHeight: "1.2",
                         }}
                       >
-                        Welcome to autocars
+                        What is the meaning of autoparts?
                       </span>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate id est laborum.Lorem ipsum
-                        dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna
-                        aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate id est laborum.Lorem ipsum
-                        dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna
-                        aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate id est laborum.
+                        Auto parts are the component elements and systems that
+                        make up a car. They range from the smallest fasteners to
+                        the largest body panels, from the engine to the seat
+                        springs.
                       </p>
                     </div>
                   </div>

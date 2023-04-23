@@ -1,5 +1,5 @@
 .inputBox > span{
-    font-family: "Roboto";
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     animation: sliding 14s linear infinite;
     display: block;
 }

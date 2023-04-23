@@ -6,7 +6,7 @@
     justify-content: flex-end;
     align-items: center;
     background-color: #fff;
-    background-image: url(https://image.freepik.com/free-vector/online-wishes-list-concept-illustration_114360-3900.jpg);
+    background-image: url(https://img.freepik.com/free-vector/mobile-login-concept-illustration_114360-83.jpg);
     background-repeat: no-repeat;
     background-position: left;
     background-position-x: 10%;
@@ -138,7 +138,7 @@
   .loginBtn,
   .signUpBtn {
     border: none;
-    background-color: #7B02EA;
+    background-color: #007dfe;
     color: white;
     font: 300 0.9vmax "Roboto";
     width: 100%;
