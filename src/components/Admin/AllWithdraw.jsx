@@ -27,5 +27,14 @@ const AllWithdraw = () => {
       });
   }, []);
 
+  const columns = [
+    { field: "id", headerName: "Withdraw Id", minWidth: 150, flex: 0.7 },
+    {
+      field: "name",
+      headerName: "Shop Name",
+      minWidth: 180,
+      flex: 1.4,
+    },
+   
 
 export default AllWithdraw;
