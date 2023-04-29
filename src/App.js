@@ -194,7 +194,16 @@ const App = () => {
             </SellerProtectedRoute>
           }
         />
-    
+        <Route
+          path="/dashboard-refunds"
+          element={
+            <SellerProtectedRoute>
+              <ShopAllRefunds />
+            </SellerProtectedRoute>
+          }
+        />
+
+      
         
 
 export default App;
