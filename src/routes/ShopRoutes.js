@@ -19,5 +19,7 @@ export {
     ShopCreateEvents,
     ShopAllEvents,
     ShopAllCoupouns,
+    ShopPreviewPage,
+    ShopAllOrders,
    
 }
