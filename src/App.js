@@ -300,6 +300,14 @@ const App = () => {
             </ProtectedAdminRoute>
           }
         />
-      
+         <Route
+          path="/admin-events"
+          element={
+            <ProtectedAdminRoute>
+              <AdminDashboardEvents />
+            </ProtectedAdminRoute>
+          }
+        />
+       
 
 export default App;
