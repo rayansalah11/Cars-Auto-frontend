@@ -154,7 +154,15 @@ const App = () => {
         {/* shop Routes */}
         <Route path="/shop-create" element={<ShopCreatePage />} />
         <Route path="/shop-login" element={<ShopLoginPage />} />
-    
+        <Route
+          path="/shop/:id"
+          element={
+            <SellerProtectedRoute>
+              <ShopHomePage />
+            </SellerProtectedRoute>
+          }
+        />
+      
         
 
 export default App;
