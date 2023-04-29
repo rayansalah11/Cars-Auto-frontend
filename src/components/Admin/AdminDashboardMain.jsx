@@ -108,7 +108,14 @@ const AdminDashboardMain = () => {
                 className={`${styles.productTitle} !text-[18px] leading-5 !font-[400] text-[#00000085]`}
               >
                 All Sellers
-        
+              </h3>
+            </div>
+            <h5 className="pt-2 pl-[36px] text-[22px] font-[500]">{sellers && sellers.length}</h5>
+            <Link to="/admin-sellers">
+              <h5 className="pt-4 pl-2 text-[#077f9c]">View Sellers</h5>
+            </Link>
+          </div>
+  
         
 
 export default AdminDashboardMain;
