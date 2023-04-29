@@ -142,7 +142,15 @@ const App = () => {
             </ProtectedRoute>
           }
         />
-      
+        <Route
+          path="/user/track/order/:id"
+          element={
+            <ProtectedRoute>
+              <TrackOrderPage />
+            </ProtectedRoute>
+          }
+        />
+    
         
 
 export default App;
