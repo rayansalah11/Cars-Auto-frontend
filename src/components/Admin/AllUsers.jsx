@@ -102,6 +102,12 @@ const AllUsers = () => {
           <DataGrid
             rows={row}
             columns={columns}
-              
+            pageSize={10}
+            disableSelectionOnClick
+            autoHeight
+          />
+        </div>
+        {open && (
+            
 
 export default AllUsers;
