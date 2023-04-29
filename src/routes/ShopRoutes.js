@@ -13,5 +13,7 @@ import ShopWithDrawMoneyPage from "../pages/Shop/ShopWithDrawMoneyPage";
 import ShopInboxPage from "../pages/Shop/ShopInboxPage";
 
 export {
+    ShopDashboardPage,
+    ShopCreateProduct,
   
 }
