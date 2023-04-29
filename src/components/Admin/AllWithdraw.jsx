@@ -105,6 +105,16 @@ const AllWithdraw = () => {
         createdAt: item.createdAt.slice(0, 10),
       });
     });
-  
+  return (
+    <div className="w-full flex items-center pt-5 justify-center">
+      <div className="w-[95%] bg-white">
+        <DataGrid
+          rows={row}
+          columns={columns}
+          pageSize={10}
+          disableSelectionOnClick
+          autoHeight
+        />
+      
 
 export default AllWithdraw;
