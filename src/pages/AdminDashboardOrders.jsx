@@ -77,5 +77,10 @@ const AdminDashboardOrders = () => {
           <div className="w-full min-h-[45vh] pt-5 rounded flex justify-center">
             <div className="w-[97%] flex justify-center">
               <DataGrid
-      
+                rows={row}
+                columns={columns}
+                pageSize={4}
+                disableSelectionOnClick
+                autoHeight
+       
 export default AdminDashboardOrders;
