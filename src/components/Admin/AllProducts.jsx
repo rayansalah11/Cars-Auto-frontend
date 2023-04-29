@@ -59,7 +59,15 @@ const AllProducts = () => {
       renderCell: (params) => {
         return (
           <>
-         
+            <Link to={`/product/${params.id}`}>
+              <Button>
+                <AiOutlineEye size={20} />
+              </Button>
+            </Link>
+          </>
+        );
+      },
+    },
   ];
 
   
