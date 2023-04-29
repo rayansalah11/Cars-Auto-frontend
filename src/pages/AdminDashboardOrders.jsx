@@ -20,5 +20,10 @@ const AdminDashboardOrders = () => {
     { field: "id", headerName: "Order ID", minWidth: 150, flex: 0.7 },
 
     {
-   
+      field: "status",
+      headerName: "Status",
+      minWidth: 130,
+      flex: 0.7,
+      cellClassName: (params) => {
+  
 export default AdminDashboardOrders;
