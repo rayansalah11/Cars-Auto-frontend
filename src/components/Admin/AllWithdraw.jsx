@@ -46,6 +46,14 @@ const AllWithdraw = () => {
       headerName: "Amount",
       minWidth: 100,
       flex: 0.6,
-    
+    },
+    {
+      field: "status",
+      headerName: "status",
+      type: "text",
+      minWidth: 80,
+      flex: 0.5,
+    },
+   
 
 export default AllWithdraw;
