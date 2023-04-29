@@ -125,6 +125,13 @@ const AllWithdraw = () => {
             <h1 className="text-[25px] text-center font-Poppins">
               Update Withdraw status
             </h1>
-            
+            <br />
+            <select
+              name=""
+              id=""
+              onChange={(e) => setWithdrawStatus(e.target.value)}
+              className="w-[200px] h-[35px] border rounded"
+            >
+             
 
 export default AllWithdraw;
