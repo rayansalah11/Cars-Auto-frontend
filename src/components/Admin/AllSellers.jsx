@@ -17,5 +17,9 @@ const AllSellers = () => {
   const [open, setOpen] = useState(false);
   const [userId, setUserId] = useState("");
 
+  useEffect(() => {
+    dispatch(getAllSellers());
+  }, [dispatch]);
+
  
 export default AllSellers;
