@@ -50,7 +50,16 @@ const AllProducts = () => {
       flex: 0.6,
     },
     {
-   
+      field: "Preview",
+      flex: 0.8,
+      minWidth: 100,
+      headerName: "",
+      type: "number",
+      sortable: false,
+      renderCell: (params) => {
+        return (
+          <>
+         
   ];
 
   
