@@ -62,4 +62,25 @@ const AllSellers = () => {
       minWidth: 130,
       flex: 0.8,
     },
+    {
+        field: "  ",
+        flex: 1,
+        minWidth: 150,
+        headerName: "Preview Shop",
+        type: "number",
+        sortable: false,
+        renderCell: (params) => {
+          return (
+            <>
+            <Link to={`/shop/preview/${params.id}`}>
+            <Button>
+                <AiOutlineEye size={20} />
+              </Button>
+            </Link>
+            </>
+          );
+        },
+      },
+    {
+  
 export default AllSellers;
