@@ -14,5 +14,10 @@ const AllWithdraw = () => {
   const [withdrawData, setWithdrawData] = useState();
   const [withdrawStatus,setWithdrawStatus] = useState('Processing');
 
+  useEffect(() => {
+    axios
+      .get(`${server}/withdraw/get-all-withdraw-request`, {
+        withCredentials: true,
+      })
 
 export default AllWithdraw;
