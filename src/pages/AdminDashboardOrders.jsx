@@ -5,5 +5,7 @@ import { DataGrid } from "@material-ui/data-grid";
 import { useDispatch, useSelector } from "react-redux";
 import { getAllOrdersOfAdmin } from "../redux/actions/order";
 
+const AdminDashboardOrders = () => {
+  const dispatch = useDispatch();
 
 export default AdminDashboardOrders;
