@@ -11,6 +11,11 @@ import axios from "axios";
 import { server } from "../../server";
 import { useState } from "react";
 
+const AllProducts = () => {
+  const [data, setData] = useState([]);
+
+  ];
+
   
   
 export default AllProducts;
