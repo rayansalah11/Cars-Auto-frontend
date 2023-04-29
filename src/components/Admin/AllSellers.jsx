@@ -34,6 +34,11 @@ const AllSellers = () => {
   const columns = [
     { field: "id", headerName: "Seller ID", minWidth: 150, flex: 0.7 },
 
-    },
+    {
+      field: "name",
+      headerName: "name",
+      minWidth: 130,
+      flex: 0.7,
+    }  },
 
 export default AllSellers;
