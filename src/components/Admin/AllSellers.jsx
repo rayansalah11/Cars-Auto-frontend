@@ -47,6 +47,12 @@ const AllSellers = () => {
       minWidth: 130,
       flex: 0.7,
     },
-     },
+    {
+      field: "address",
+      headerName: "Seller Address",
+      type: "text",
+      minWidth: 130,
+      flex: 0.7,
+    },
 
 export default AllSellers;
