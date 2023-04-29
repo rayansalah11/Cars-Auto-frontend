@@ -15,5 +15,7 @@ import ShopInboxPage from "../pages/Shop/ShopInboxPage";
 export {
     ShopDashboardPage,
     ShopCreateProduct,
+    ShopAllProducts,
+    ShopCreateEvents,
   
 }
