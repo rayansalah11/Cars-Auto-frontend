@@ -100,7 +100,11 @@ const App = () => {
           path="/activation/:activation_token"
           element={<ActivationPage />}
         />
-     
+        <Route
+          path="/seller/activation/:activation_token"
+          element={<SellerActivationPage />}
+        />
+      
       
         
 
