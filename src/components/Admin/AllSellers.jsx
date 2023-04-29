@@ -118,5 +118,13 @@ const AllSellers = () => {
         <h3 className="text-[22px] font-Poppins pb-2">All Users</h3>
         <div className="w-full min-h-[45vh] bg-white rounded">
           <DataGrid
-          
+            rows={row}
+            columns={columns}
+            pageSize={10}
+            disableSelectionOnClick
+            autoHeight
+          />
+        </div>
+        {open && (
+            
 export default AllSellers;
