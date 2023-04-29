@@ -46,4 +46,12 @@ const AdminDashboardOrders = () => {
       flex: 0.8,
     },
     {
+        field: "createdAt",
+        headerName: "Order Date",
+        type: "number",
+        minWidth: 130,
+        flex: 0.8,
+      },
+  ];
+
 export default AdminDashboardOrders;
