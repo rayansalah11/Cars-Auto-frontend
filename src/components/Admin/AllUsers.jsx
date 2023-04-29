@@ -93,6 +93,15 @@ const AllUsers = () => {
         joinedAt: item.createdAt.slice(0, 10),
       });
     });
-     
+
+  return (
+    <div className="w-full flex justify-center pt-5">
+      <div className="w-[97%]">
+        <h3 className="text-[22px] font-Poppins pb-2">All Users</h3>
+        <div className="w-full min-h-[45vh] bg-white rounded">
+          <DataGrid
+            rows={row}
+            columns={columns}
+              
 
 export default AllUsers;
