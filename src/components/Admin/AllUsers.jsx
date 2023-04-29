@@ -34,5 +34,19 @@ const AllUsers = () => {
   const columns = [
     { field: "id", headerName: "User ID", minWidth: 150, flex: 0.7 },
 
+    {
+      field: "name",
+      headerName: "name",
+      minWidth: 130,
+      flex: 0.7,
+    },
+    {
+      field: "email",
+      headerName: "Email",
+      type: "text",
+      minWidth: 130,
+      flex: 0.7,
+    },
+   
 
 export default AllUsers;
