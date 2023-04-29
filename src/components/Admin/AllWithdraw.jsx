@@ -8,6 +8,11 @@ import { RxCross1 } from "react-icons/rx";
 import styles from "../../styles/styles";
 import { toast } from "react-toastify";
 
+const AllWithdraw = () => {
+  const [data, setData] = useState([]);
+  const [open, setOpen] = useState(false);
+  const [withdrawData, setWithdrawData] = useState();
+  const [withdrawStatus,setWithdrawStatus] = useState('Processing');
 
 
 export default AllWithdraw;
