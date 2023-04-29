@@ -32,5 +32,8 @@ export {
     OrderSuccessPage,
     ProductDetailsPage,
     ProfilePage,
+    ShopCreatePage,
+    SellerActivationPage,
+    ShopLoginPage,
   
 };
