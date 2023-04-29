@@ -37,7 +37,20 @@ const AllProducts = () => {
     {
       field: "Stock",
       headerName: "Stock",
+      type: "number",
+      minWidth: 80,
+      flex: 0.5,
+    },
 
+    {
+      field: "sold",
+      headerName: "Sold out",
+      type: "number",
+      minWidth: 130,
+      flex: 0.6,
+    },
+    {
+   
   ];
 
   
