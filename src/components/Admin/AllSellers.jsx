@@ -30,6 +30,10 @@ const AllSellers = () => {
 
   dispatch(getAllSellers());
   };
-  },
+
+  const columns = [
+    { field: "id", headerName: "Seller ID", minWidth: 150, flex: 0.7 },
+
+    },
 
 export default AllSellers;
