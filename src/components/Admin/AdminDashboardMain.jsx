@@ -16,5 +16,10 @@ const AdminDashboardMain = () => {
   const { adminOrders,adminOrderLoading } = useSelector((state) => state.order);
   const { sellers } = useSelector((state) => state.seller);
 
+  useEffect(() => {
+    dispatch(getAllOrdersOfAdmin());
+    dispatch(getAllSellers());
+  }, []);
+
 
 export default AdminDashboardMain;
