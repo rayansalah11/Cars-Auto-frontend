@@ -38,5 +38,12 @@ const AdminDashboardOrders = () => {
       flex: 0.7,
     },
 
-  
+    {
+      field: "total",
+      headerName: "Total",
+      type: "number",
+      minWidth: 130,
+      flex: 0.8,
+    },
+    {
 export default AdminDashboardOrders;
