@@ -69,5 +69,17 @@ const AllWithdraw = () => {
       flex: 0.6,
       renderCell: (params) => {
 
+        return (
+          <BsPencil
+            size={20}
+            className={`${params.row.status !== "Processing" ? 'hidden' : '' } mr-5 cursor-pointer`}
+            onClick={() => setOpen(true) || setWithdrawData(params.row)}
+          />
+        );
+      },
+    },
+  ];
+
+
 
 export default AllWithdraw;
