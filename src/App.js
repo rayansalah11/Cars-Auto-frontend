@@ -308,6 +308,15 @@ const App = () => {
             </ProtectedAdminRoute>
           }
         />
-       
+         <Route
+          path="/admin-withdraw-request"
+          element={
+            <ProtectedAdminRoute>
+              <AdminDashboardWithdraw />
+            </ProtectedAdminRoute>
+          }
+        />
+      </Routes>
+    
 
 export default App;
