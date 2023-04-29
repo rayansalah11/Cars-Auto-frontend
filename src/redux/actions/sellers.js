@@ -16,4 +16,10 @@ export const getAllSellers = () => async (dispatch) => {
       type: "getAllSellersSuccess",
       payload: data.sellers,
     });
-  
+  } catch (error) {
+    dispatch({
+      type: "getAllSellerFailed",
+    //   payload: error.response.data.message,
+    });
+  }
+};
