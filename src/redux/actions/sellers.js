@@ -11,3 +11,9 @@ export const getAllSellers = () => async (dispatch) => {
     const { data } = await axios.get(`${server}/shop/admin-all-sellers`, {
       withCredentials: true,
     });
+
+    dispatch({
+      type: "getAllSellersSuccess",
+      payload: data.sellers,
+    });
+  
