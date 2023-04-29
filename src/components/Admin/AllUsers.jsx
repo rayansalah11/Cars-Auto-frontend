@@ -28,4 +28,11 @@ const AllUsers = () => {
       toast.success(res.data.message);
     });
 
+  dispatch(getAllUsers());
+  };
+
+  const columns = [
+    { field: "id", headerName: "User ID", minWidth: 150, flex: 0.7 },
+
+
 export default AllUsers;
