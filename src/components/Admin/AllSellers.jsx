@@ -39,6 +39,14 @@ const AllSellers = () => {
       headerName: "name",
       minWidth: 130,
       flex: 0.7,
-    }  },
+    },
+    {
+      field: "email",
+      headerName: "Email",
+      type: "text",
+      minWidth: 130,
+      flex: 0.7,
+    },
+     },
 
 export default AllSellers;
