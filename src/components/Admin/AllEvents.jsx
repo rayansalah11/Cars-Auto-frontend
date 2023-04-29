@@ -44,5 +44,8 @@ const AllEvents = () => {
       flex: 0.6,
     },
     {
-   
+      field: "Preview",
+      flex: 0.8,
+      minWidth: 100,
+    
 export default AllEvents;
