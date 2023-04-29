@@ -92,5 +92,7 @@ const AllWithdraw = () => {
       });
   };
 
+  const row = [];
+  
 
 export default AllWithdraw;
