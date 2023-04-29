@@ -66,4 +66,9 @@ const AllEvents = () => {
 
   const row = [];
 
+  events &&
+    events.forEach((item) => {
+      row.push({
+        id: item._id,
+      
 export default AllEvents;
