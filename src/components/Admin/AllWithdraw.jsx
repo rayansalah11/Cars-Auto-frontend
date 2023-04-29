@@ -19,5 +19,13 @@ const AllWithdraw = () => {
       .get(`${server}/withdraw/get-all-withdraw-request`, {
         withCredentials: true,
       })
+      .then((res) => {
+        setData(res.data.withdraws);
+      })
+      .catch((error) => {
+        console.log(error.response.data.message);
+      });
+  }, []);
+
 
 export default AllWithdraw;
