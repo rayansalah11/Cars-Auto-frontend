@@ -65,5 +65,9 @@ const AdminDashboardOrders = () => {
         createdAt: item?.createdAt.slice(0,10),
       });
     });
-
+  return (
+    <div>
+      <AdminHeader />
+      <div className="w-full flex">
+     
 export default AdminDashboardOrders;
