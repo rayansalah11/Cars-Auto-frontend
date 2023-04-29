@@ -99,5 +99,24 @@ const AllSellers = () => {
       },
     },
   ];
-  
+
+  const row = [];
+  sellers &&
+  sellers.forEach((item) => {
+      row.push({
+        id: item._id,
+        name: item?.name,
+        email: item?.email,
+        joinedAt: item.createdAt.slice(0, 10),
+        address: item.address,
+      });
+    });
+
+  return (
+    <div className="w-full flex justify-center pt-5">
+      <div className="w-[97%]">
+        <h3 className="text-[22px] font-Poppins pb-2">All Users</h3>
+        <div className="w-full min-h-[45vh] bg-white rounded">
+          <DataGrid
+          
 export default AllSellers;
