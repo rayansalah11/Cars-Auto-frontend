@@ -140,5 +140,13 @@ const AllWithdraw = () => {
               className={`block ${styles.button} text-white !h-[42px] mt-4 text-[18px]`}
               onClick={handleSubmit}
             >
+              Update
+            </button>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+};
 
 export default AllWithdraw;
