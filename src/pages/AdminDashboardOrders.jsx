@@ -8,4 +8,8 @@ import { getAllOrdersOfAdmin } from "../redux/actions/order";
 const AdminDashboardOrders = () => {
   const dispatch = useDispatch();
 
+  const { adminOrders, adminOrderLoading } = useSelector(
+    (state) => state.order
+  );
+
 export default AdminDashboardOrders;
