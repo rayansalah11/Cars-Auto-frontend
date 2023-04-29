@@ -5,5 +5,8 @@ import AllSellers from "../components/Admin/AllSellers";
 
 const AdminDashboardSellers = () => {
   return (
-  
+    <div>
+    <AdminHeader />
+    <div className="w-full flex">
+   
 export default AdminDashboardSellers
