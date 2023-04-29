@@ -121,6 +121,10 @@ const AllWithdraw = () => {
           <div className="w-[50%] min-h-[40vh] bg-white rounded shadow p-4">
             <div className="flex justify-end w-full">
               <RxCross1 size={25} onClick={() => setOpen(false)} />
-           
+            </div>
+            <h1 className="text-[25px] text-center font-Poppins">
+              Update Withdraw status
+            </h1>
+            
 
 export default AllWithdraw;
