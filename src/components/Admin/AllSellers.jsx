@@ -82,5 +82,22 @@ const AllSellers = () => {
         },
       },
     {
+      field: " ",
+      flex: 1,
+      minWidth: 150,
+      headerName: "Delete Seller",
+      type: "number",
+      sortable: false,
+      renderCell: (params) => {
+        return (
+          <>
+            <Button onClick={() => setUserId(params.id) || setOpen(true)}>
+              <AiOutlineDelete size={20} />
+            </Button>
+          </>
+        );
+      },
+    },
+  ];
   
 export default AllSellers;
