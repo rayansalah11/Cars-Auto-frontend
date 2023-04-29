@@ -22,5 +22,9 @@ export {
     LoginPage,
     SignupPage,
     ActivationPage,
+    HomePage,
+    ProductsPage,
+    BestSellingPage,
+    EventsPage,
   
 };
