@@ -76,6 +76,15 @@ const AdminDashboardMain = () => {
       });
     });
 
+  return (
+   <>
+    {
+      adminOrderLoading ? (
+        <Loader />
+      ) : (
+        <div className="w-full p-4">
+        <h3 className="text-[22px] font-Poppins pb-2">Overview</h3>
+       
         
 
 export default AdminDashboardMain;
