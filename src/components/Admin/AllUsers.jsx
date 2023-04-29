@@ -82,5 +82,17 @@ const AllUsers = () => {
     },
   ];
 
+  const row = [];
+  users &&
+    users.forEach((item) => {
+      row.push({
+        id: item._id,
+        name: item.name,
+        email: item.email,
+        role: item.role,
+        joinedAt: item.createdAt.slice(0, 10),
+      });
+    });
+     
 
 export default AllUsers;
