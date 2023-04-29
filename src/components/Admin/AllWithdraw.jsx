@@ -54,6 +54,13 @@ const AllWithdraw = () => {
       minWidth: 80,
       flex: 0.5,
     },
+    {
+      field: "createdAt",
+      headerName: "Request given at",
+      type: "number",
+      minWidth: 130,
+      flex: 0.6,
+    },
    
 
 export default AllWithdraw;
