@@ -21,5 +21,21 @@ const AdminDashboardMain = () => {
     dispatch(getAllSellers());
   }, []);
 
+   const adminEarning = adminOrders && adminOrders.reduce((acc,item) => acc + item.totalPrice * .10, 0);
+
+
+   const adminBalance = adminEarning?.toFixed(2);
+
+  const columns = [
+    { field: "id", headerName: "Order ID", minWidth: 150, flex: 0.7 },
+
+    {
+      field: "status",
+      headerName: "Status",
+      minWidth: 130,
+      flex: 0.7,
+      
+      
+    
 
 export default AdminDashboardMain;
