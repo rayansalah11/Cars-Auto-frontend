@@ -203,7 +203,15 @@ const App = () => {
           }
         />
 
-      
+        <Route
+          path="/order/:id"
+          element={
+            <SellerProtectedRoute>
+              <ShopOrderDetails />
+            </SellerProtectedRoute>
+          }
+        />
+     
         
 
 export default App;
