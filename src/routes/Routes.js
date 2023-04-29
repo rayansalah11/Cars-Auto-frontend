@@ -29,5 +29,8 @@ export {
     FAQPage,
     CheckoutPage,
     PaymentPage,
+    OrderSuccessPage,
+    ProductDetailsPage,
+    ProfilePage,
   
 };
