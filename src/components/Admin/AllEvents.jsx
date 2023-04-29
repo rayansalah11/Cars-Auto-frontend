@@ -40,5 +40,9 @@ const AllEvents = () => {
       field: "sold",
       headerName: "Sold out",
       type: "number",
- 
+      minWidth: 130,
+      flex: 0.6,
+    },
+    {
+   
 export default AllEvents;
