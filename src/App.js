@@ -243,7 +243,15 @@ const App = () => {
             </SellerProtectedRoute>
           }
         />
-        
+        <Route
+          path="/dashboard-withdraw-money"
+          element={
+            <SellerProtectedRoute>
+              <ShopWithDrawMoneyPage />
+            </SellerProtectedRoute>
+          }
+        />
+       
         
 
 export default App;
