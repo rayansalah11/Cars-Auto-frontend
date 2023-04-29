@@ -47,6 +47,13 @@ const AllUsers = () => {
       minWidth: 130,
       flex: 0.7,
     },
-   
+    {
+      field: "role",
+      headerName: "User Role",
+      type: "text",
+      minWidth: 130,
+      flex: 0.7,
+    },
+
 
 export default AllUsers;
