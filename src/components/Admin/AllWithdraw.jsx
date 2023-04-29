@@ -80,6 +80,17 @@ const AllWithdraw = () => {
     },
   ];
 
+  const handleSubmit = async () => {
+    await axios
+      .put(`${server}/withdraw/update-withdraw-request/${withdrawData.id}`,{
+        sellerId: withdrawData.shopId,
+      },{withCredentials: true})
+      .then((res) => {
+        toast.success("Withdraw request updated successfully!");
+        setData(res.data.withdraws);
+        setOpen(false);
+      });
+  };
 
 
 export default AllWithdraw;
