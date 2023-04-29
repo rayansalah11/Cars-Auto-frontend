@@ -82,5 +82,13 @@ const AdminDashboardOrders = () => {
                 pageSize={4}
                 disableSelectionOnClick
                 autoHeight
-       
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
 export default AdminDashboardOrders;
