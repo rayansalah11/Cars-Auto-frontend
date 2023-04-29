@@ -76,7 +76,23 @@ const App = () => {
     getStripeApikey();
   }, []);
 
-
+  return (
+    <BrowserRouter>
+      {stripeApikey && (
+        <Elements stripe={loadStripe(stripeApikey)}>
+          <Routes>
+            <Route
+              path="/payment"
+              element={
+                <ProtectedRoute>
+                  <PaymentPage />
+                </ProtectedRoute>
+              }
+            />
+          </Routes>
+        </Elements>
+      )}
+      
       
         
 
