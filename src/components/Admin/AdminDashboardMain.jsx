@@ -116,6 +116,14 @@ const AdminDashboardMain = () => {
             </Link>
           </div>
   
+          <div className="w-full mb-4 800px:w-[30%] min-h-[20vh] bg-white shadow rounded px-2 py-5">
+            <div className="flex items-center">
+              <AiOutlineMoneyCollect
+                size={30}
+                className="mr-2"
+                fill="#00000085"
+              />
+             
         
 
 export default AdminDashboardMain;
