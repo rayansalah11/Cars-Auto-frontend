@@ -260,7 +260,14 @@ const App = () => {
           }
         />
         {/* Admin Routes */}
-        
+        <Route
+          path="/admin/dashboard"
+          element={
+            <ProtectedAdminRoute>
+              <AdminDashboardPage />
+            </ProtectedAdminRoute>
+          }
+       
         
 
 export default App;
