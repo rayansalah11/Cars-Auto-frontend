@@ -132,6 +132,13 @@ const AllWithdraw = () => {
               onChange={(e) => setWithdrawStatus(e.target.value)}
               className="w-[200px] h-[35px] border rounded"
             >
-             
+              <option value={withdrawStatus}>{withdrawData.status}</option>
+              <option value={withdrawStatus}>Succeed</option>
+            </select>
+            <button
+              type="submit"
+              className={`block ${styles.button} text-white !h-[42px] mt-4 text-[18px]`}
+              onClick={handleSubmit}
+            >
 
 export default AllWithdraw;
