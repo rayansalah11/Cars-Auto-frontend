@@ -70,6 +70,8 @@ const AllProducts = () => {
     },
   ];
 
+  const row = [];
+
   
   
 export default AllProducts;
