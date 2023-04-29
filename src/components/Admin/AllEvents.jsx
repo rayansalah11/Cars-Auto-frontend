@@ -27,5 +27,10 @@ const AllEvents = () => {
       headerName: "Price",
       minWidth: 100,
       flex: 0.6,
-  
+    },
+    {
+      field: "Stock",
+      headerName: "Stock",
+      type: "number",
+ 
 export default AllEvents;
