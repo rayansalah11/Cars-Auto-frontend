@@ -12,4 +12,8 @@ const AdminDashboardOrders = () => {
     (state) => state.order
   );
 
+  useEffect(() => {
+    dispatch(getAllOrdersOfAdmin());
+  }, []);
+
 export default AdminDashboardOrders;
