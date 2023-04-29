@@ -211,7 +211,15 @@ const App = () => {
             </SellerProtectedRoute>
           }
         />
-     
+        <Route
+          path="/dashboard-products"
+          element={
+            <SellerProtectedRoute>
+              <ShopAllProducts />
+            </SellerProtectedRoute>
+          }
+        />
+       
         
 
 export default App;
