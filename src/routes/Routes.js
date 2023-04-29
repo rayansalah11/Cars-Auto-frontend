@@ -19,6 +19,8 @@ import TrackOrderPage from "../pages/TrackOrderPage";
 import UserInbox from "../pages/UserInbox.jsx";
 
 export { 
+    LoginPage,
+    SignupPage,
+    ActivationPage,
   
-    
 };
