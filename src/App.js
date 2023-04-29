@@ -134,7 +134,15 @@ const App = () => {
             </ProtectedRoute>
           }
         />
-   
+        <Route
+          path="/user/order/:id"
+          element={
+            <ProtectedRoute>
+              <OrderDetailsPage />
+            </ProtectedRoute>
+          }
+        />
+      
         
 
 export default App;
