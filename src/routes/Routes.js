@@ -26,5 +26,8 @@ export {
     ProductsPage,
     BestSellingPage,
     EventsPage,
+    FAQPage,
+    CheckoutPage,
+    PaymentPage,
   
 };
