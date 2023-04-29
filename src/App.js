@@ -61,6 +61,9 @@ import { server } from "./server";
 import { Elements } from "@stripe/react-stripe-js";
 import { loadStripe } from "@stripe/stripe-js";
 
+const App = () => {
+  const [stripeApikey, setStripeApiKey] = useState("");
+
 
       
         
