@@ -93,6 +93,18 @@ const AllWithdraw = () => {
   };
 
   const row = [];
+
+  data &&
+    data.forEach((item) => {
+      row.push({
+        id: item._id,
+        shopId: item.seller._id,
+        name: item.seller.name,
+        amount: "US$ " + item.amount,
+        status: item.status,
+        createdAt: item.createdAt.slice(0, 10),
+      });
+    });
   
 
 export default AllWithdraw;
