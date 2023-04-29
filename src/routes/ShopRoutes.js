@@ -21,5 +21,9 @@ export {
     ShopAllCoupouns,
     ShopPreviewPage,
     ShopAllOrders,
-   
+    ShopOrderDetails,
+    ShopAllRefunds,
+    ShopSettingsPage,
+    ShopWithDrawMoneyPage,
+    ShopInboxPage
 }
