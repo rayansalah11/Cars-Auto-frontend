@@ -121,6 +121,15 @@ const AllUsers = () => {
                   className={`${styles.button} text-white text-[18px] !h-[42px] mr-4`}
                   onClick={() => setOpen(false)}
                 >
-          
+                  cancel
+                </div>
+                <div
+                  className={`${styles.button} text-white text-[18px] !h-[42px] ml-4`}
+                  onClick={() =>  setOpen(false) || handleDelete(userId)}
+                >
+                  confirm
+                </div>
+              </div>
+       
 
 export default AllUsers;
