@@ -55,5 +55,13 @@ const AllUsers = () => {
       flex: 0.7,
     },
 
+    {
+      field: "joinedAt",
+      headerName: "joinedAt",
+      type: "text",
+      minWidth: 130,
+      flex: 0.8,
+    },
+
 
 export default AllUsers;
