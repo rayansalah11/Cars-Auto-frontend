@@ -219,7 +219,14 @@ const App = () => {
             </SellerProtectedRoute>
           }
         />
-       
+        <Route
+          path="/dashboard-create-event"
+          element={
+            <SellerProtectedRoute>
+              <ShopCreateEvents />
+            </SellerProtectedRoute>
+          }
+     
         
 
 export default App;
