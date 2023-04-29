@@ -137,6 +137,21 @@ const AdminDashboardMain = () => {
         </div>
   
         <br />
-        
+        <h3 className="text-[22px] font-Poppins pb-2">Latest Orders</h3>
+        <div className="w-full min-h-[45vh] bg-white rounded">
+          <DataGrid
+            rows={row}
+            columns={columns}
+            pageSize={4}
+            disableSelectionOnClick
+            autoHeight
+          />
+        </div>
+      </div>
+      )
+    }
+   </>
+  );
+};
 
 export default AdminDashboardMain;
