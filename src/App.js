@@ -126,7 +126,15 @@ const App = () => {
             </ProtectedRoute>
           }
         />
-    
+        <Route
+          path="/inbox"
+          element={
+            <ProtectedRoute>
+              <UserInbox />
+            </ProtectedRoute>
+          }
+        />
+   
         
 
 export default App;
