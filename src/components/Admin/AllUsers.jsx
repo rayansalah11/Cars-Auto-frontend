@@ -17,5 +17,15 @@ const AllUsers = () => {
   const [open, setOpen] = useState(false);
   const [userId, setUserId] = useState("");
 
+  useEffect(() => {
+    dispatch(getAllUsers());
+  }, [dispatch]);
+
+  const handleDelete = async (id) => {
+    await axios
+    .delete(`${server}/user/delete-user/${id}`, { withCredentials: true })
+    .then((res) => {
+      toast.success(res.data.message);
+    });
 
 export default AllUsers;
