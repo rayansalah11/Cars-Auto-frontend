@@ -130,6 +130,12 @@ const AllUsers = () => {
                   confirm
                 </div>
               </div>
-       
+            </div>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+};
 
 export default AllUsers;
