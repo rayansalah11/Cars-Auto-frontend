@@ -251,7 +251,16 @@ const App = () => {
             </SellerProtectedRoute>
           }
         />
-       
+        <Route
+          path="/dashboard-messages"
+          element={
+            <SellerProtectedRoute>
+              <ShopInboxPage />
+            </SellerProtectedRoute>
+          }
+        />
+        {/* Admin Routes */}
+        
         
 
 export default App;
