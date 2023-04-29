@@ -11,5 +11,11 @@ import axios from "axios";
 import { server } from "../../server";
 import { toast } from "react-toastify";
 
+const AllUsers = () => {
+  const dispatch = useDispatch();
+  const { users } = useSelector((state) => state.user);
+  const [open, setOpen] = useState(false);
+  const [userId, setUserId] = useState("");
+
 
 export default AllUsers;
