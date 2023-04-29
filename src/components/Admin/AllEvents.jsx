@@ -59,5 +59,8 @@ const AllEvents = () => {
               </Button>
             </Link>
           </>
-      
+        );
+      },
+    },
+  ];
 export default AllEvents;
