@@ -115,6 +115,12 @@ const AllUsers = () => {
               </div>
               <h3 className="text-[25px] text-center py-5 font-Poppins text-[#000000cb]">
                 Are you sure you wanna delete this user?
-               
+              </h3>
+              <div className="w-full flex items-center justify-center">
+                <div
+                  className={`${styles.button} text-white text-[18px] !h-[42px] mr-4`}
+                  onClick={() => setOpen(false)}
+                >
+          
 
 export default AllUsers;
