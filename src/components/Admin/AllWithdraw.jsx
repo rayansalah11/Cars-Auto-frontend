@@ -61,6 +61,13 @@ const AllWithdraw = () => {
       minWidth: 130,
       flex: 0.6,
     },
-   
+    {
+      field: " ",
+      headerName: "Update Status",
+      type: "number",
+      minWidth: 130,
+      flex: 0.6,
+      renderCell: (params) => {
+
 
 export default AllWithdraw;
