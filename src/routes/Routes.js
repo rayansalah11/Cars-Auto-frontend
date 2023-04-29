@@ -35,5 +35,7 @@ export {
     ShopCreatePage,
     SellerActivationPage,
     ShopLoginPage,
-  
+    OrderDetailsPage,
+    TrackOrderPage,
+    UserInbox
 };
