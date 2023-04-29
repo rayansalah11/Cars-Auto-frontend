@@ -40,6 +40,14 @@ const AdminDashboardMain = () => {
           : "redColor";
       },
     },
+    {
+      field: "itemsQty",
+      headerName: "Items Qty",
+      type: "number",
+      minWidth: 130,
+      flex: 0.7,
+    },
+    
     
 
 export default AdminDashboardMain;
