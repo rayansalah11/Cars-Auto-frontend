@@ -63,4 +63,7 @@ const AllEvents = () => {
       },
     },
   ];
+
+  const row = [];
+
 export default AllEvents;
