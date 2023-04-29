@@ -77,5 +77,9 @@ const AllEvents = () => {
       });
     });
 
+  return (
+    <div className="w-full mx-8 pt-1 mt-10 bg-white">
+      <DataGrid
+        rows={row}
   
 export default AllEvents;
