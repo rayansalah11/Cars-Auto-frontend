@@ -21,5 +21,15 @@ const AllSellers = () => {
     dispatch(getAllSellers());
   }, [dispatch]);
 
- 
+  const handleDelete = async (id) => {
+    await axios
+    .delete(`${server}/shop/delete-seller/${id}`, { withCredentials: true })
+    .then((res) => {
+      toast.success(res.data.message);
+    });
+
+  dispatch(getAllSellers());
+  };
+  },
+
 export default AllSellers;
