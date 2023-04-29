@@ -186,7 +186,15 @@ const App = () => {
             </SellerProtectedRoute>
           }
         />
-   
+        <Route
+          path="/dashboard-orders"
+          element={
+            <SellerProtectedRoute>
+              <ShopAllOrders />
+            </SellerProtectedRoute>
+          }
+        />
+    
         
 
 export default App;
