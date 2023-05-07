@@ -57,9 +57,7 @@ const Header = ({ activeHeading }) => {
       <div className={`${styles.section}`}>
         <div className="hidden 800px:h-[50px] 800px:my-[20px] 800px:flex items-center justify-between">
           <div>
-            <Link to="/">
-             {/* <h1>AutoCarts</h1> */}
-            </Link>
+            <Link to="/">{/* <h1>AutoCarts</h1> */}</Link>
           </div>
           {/* search box */}
           <div className="w-[50%] relative">
@@ -113,28 +111,6 @@ const Header = ({ activeHeading }) => {
         <div
           className={`${styles.section} relative ${styles.noramlFlex} justify-between`}
         >
-          {/* categories */}
-          <div onClick={() => setDropDown(!dropDown)}>
-            <div className="relative h-[60px] mt-[10px] w-[270px] hidden 1000px:block">
-              <BiMenuAltLeft size={30} className="absolute top-3 left-2" />
-              <button
-                className={`h-[100%] w-full flex justify-between items-center pl-10 bg-white font-sans text-lg font-[500] select-none rounded-t-md`}
-              >
-                All Categories
-              </button>
-              <IoIosArrowDown
-                size={20}
-                className="absolute right-2 top-4 cursor-pointer"
-                onClick={() => setDropDown(!dropDown)}
-              />
-              {dropDown ? (
-                <DropDown
-                  categoriesData={categoriesData}
-                  setDropDown={setDropDown}
-                />
-              ) : null}
-            </div>
-          </div>
           {/* navitems */}
           <div className={`${styles.noramlFlex}`}>
             <Navbar active={activeHeading} />
@@ -213,9 +189,7 @@ const Header = ({ activeHeading }) => {
             />
           </div>
           <div>
-            <Link to="/">
-              {/* <h1>AutoCars</h1> */}
-            </Link>
+            <Link to="/">{/* <h1>AutoCars</h1> */}</Link>
           </div>
           <div>
             <div
