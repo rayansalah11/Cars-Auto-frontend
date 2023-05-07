@@ -8,7 +8,6 @@ import {
   HomePage,
   ProductsPage,
   BestSellingPage,
-  EventsPage,
   FAQPage,
   CheckoutPage,
   PaymentPage,
@@ -27,7 +26,6 @@ import {
   ShopCreateProduct,
   ShopAllProducts,
   ShopCreateEvents,
-  ShopAllEvents,
   ShopAllCoupouns,
   ShopPreviewPage,
   ShopAllOrders,
@@ -43,8 +41,7 @@ import {
   AdminDashboardSellers,
   AdminDashboardOrders,
   AdminDashboardProducts,
-  AdminDashboardEvents,
-  AdminDashboardWithdraw
+  AdminDashboardWithdraw,
 } from "./routes/AdminRoutes";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -107,7 +104,6 @@ const App = () => {
         <Route path="/products" element={<ProductsPage />} />
         <Route path="/product/:id" element={<ProductDetailsPage />} />
         <Route path="/best-selling" element={<BestSellingPage />} />
-        <Route path="/events" element={<EventsPage />} />
         <Route path="/faq" element={<FAQPage />} />
         <Route
           path="/checkout"
@@ -231,7 +227,6 @@ const App = () => {
           path="/dashboard-events"
           element={
             <SellerProtectedRoute>
-              <ShopAllEvents />
             </SellerProtectedRoute>
           }
         />
@@ -292,7 +287,7 @@ const App = () => {
             </ProtectedAdminRoute>
           }
         />
-         <Route
+        <Route
           path="/admin-products"
           element={
             <ProtectedAdminRoute>
@@ -300,15 +295,14 @@ const App = () => {
             </ProtectedAdminRoute>
           }
         />
-         <Route
+        <Route
           path="/admin-events"
           element={
             <ProtectedAdminRoute>
-              <AdminDashboardEvents />
             </ProtectedAdminRoute>
           }
         />
-         <Route
+        <Route
           path="/admin-withdraw-request"
           element={
             <ProtectedAdminRoute>

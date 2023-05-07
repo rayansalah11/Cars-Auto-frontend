@@ -4,7 +4,6 @@ import Hero from "../components/Route/Hero/Hero";
 import Categories from "../components/Route/Categories/Categories";
 import BestDeals from "../components/Route/BestDeals/BestDeals";
 import FeaturedProduct from "../components/Route/FeaturedProduct/FeaturedProduct";
-import Events from "../components/Events/Events";
 import Footer from "../components/Layout/Footer";
 
 const HomePage = () => {
@@ -14,7 +13,6 @@ const HomePage = () => {
       <Hero />
       <Categories />
       <BestDeals />
-      {/* <Events /> */}
       <FeaturedProduct />
       <Footer />
     </div>

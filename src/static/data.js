@@ -208,14 +208,14 @@ export const categoriesData = [
     title: "AccesoriesCars",
     subTitle: "",
     image_Url:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRizG25So8k7_uT9WNXSZTnPv5xZFX6VfqteQyZZYyILqJfkVnQa4PuV_NwojFxg4Q63o&usqp=CAU",
+      "https://www.cartoq.com/wp-content/uploads/2020/07/sporty-accessories.jpg",
   },
   {
     id: 1,
     title: "Care Products",
     subTitle: "",
     image_Url:
-      "https://www.autodeal.com.ph/custom/blog-post/header/top-5-aftermarket-products-that-can-help-enhance-your-vehicle-615eaf33891b9.jpg",
+      "https://www.thedrive.com/content/2017/02/61jqvsdbuzl-_sl1000_-e1486075362412.jpg?quality=85",
   },
   {
     id: 1,

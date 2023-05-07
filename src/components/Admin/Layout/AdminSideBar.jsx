@@ -104,7 +104,7 @@ const AdminSideBar = ({ active }) => {
               active === 6 ? "text-[crimson]" : "text-[#555]"
             }`}
           >
-            All Events
+            All Events 
           </h5>
         </Link>
       </div>

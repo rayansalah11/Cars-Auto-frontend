@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import styles from "../../styles/styles";
-import { categoriesData, productData } from "../../static/data";
+// import { categoriesData, productData } from "../../static/data";
 import {
   AiOutlineHeart,
   AiOutlineSearch,
@@ -57,7 +57,13 @@ const Header = ({ activeHeading }) => {
       <div className={`${styles.section}`}>
         <div className="hidden 800px:h-[50px] 800px:my-[20px] 800px:flex items-center justify-between">
           <div>
-            <Link to="/">{/* <h1>AutoCarts</h1> */}</Link>
+            <Link to="/">
+              <img
+                src="https://www.legacytruckcenters.com/fckimages/pages/auto-car-about/autocar%20badge.jpg"
+                alt="Shopo Logo"
+                class="w-40 h-40 object-contain"
+              />
+            </Link>
           </div>
           {/* search box */}
           <div className="w-[50%] relative">
