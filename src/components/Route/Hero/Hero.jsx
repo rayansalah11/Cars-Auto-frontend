@@ -23,7 +23,7 @@ const Hero = () => {
             </div>
           </Link>
         </div>
-        <img src="https://www.pngkit.com/png/detail/66-663677_rolls-royce-png-download-image-rolls-royce-phantom.png" alt="Mustang" className="w-[900px] h-auto object-contain" />
+        <img src="https://www.pngkit.com/png/detail/66-663677_rolls-royce-png-download-image-rolls-royce-phantom.png" alt="Mustang" className="w-[700px] h-auto object-contain" />
       </div>
   );
 }; 

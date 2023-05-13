@@ -8,6 +8,7 @@ import {
   HomePage,
   ProductsPage,
   BestSellingPage,
+  EventsPage,
   FAQPage,
   CheckoutPage,
   PaymentPage,
@@ -26,6 +27,7 @@ import {
   ShopCreateProduct,
   ShopAllProducts,
   ShopCreateEvents,
+  ShopAllEvents,
   ShopAllCoupouns,
   ShopPreviewPage,
   ShopAllOrders,
@@ -41,7 +43,8 @@ import {
   AdminDashboardSellers,
   AdminDashboardOrders,
   AdminDashboardProducts,
-  AdminDashboardWithdraw,
+  AdminDashboardEvents,
+  AdminDashboardWithdraw
 } from "./routes/AdminRoutes";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -57,7 +60,6 @@ import axios from "axios";
 import { server } from "./server";
 import { Elements } from "@stripe/react-stripe-js";
 import { loadStripe } from "@stripe/stripe-js";
-
 const App = () => {
   const [stripeApikey, setStripeApiKey] = useState("");
 
@@ -223,10 +225,11 @@ const App = () => {
             </SellerProtectedRoute>
           }
         />
-        <Route
-          path="/dashboard-events"
+       <Route
+          path="/dashboard-create-event"
           element={
             <SellerProtectedRoute>
+              <ShopCreateEvents />
             </SellerProtectedRoute>
           }
         />

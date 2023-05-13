@@ -12,6 +12,7 @@ import {
   footerSupportLinks,
 } from "../../static/data";
 
+
 const Footer = () => {
   return (
     <div className="bg-[#000] text-white">

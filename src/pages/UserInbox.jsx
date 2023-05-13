@@ -9,7 +9,7 @@ import { useNavigate } from "react-router-dom";
 import { AiOutlineArrowRight, AiOutlineSend } from "react-icons/ai";
 import { TfiGallery } from "react-icons/tfi";
 import styles from "../styles/styles";
-const ENDPOINT = process.env.REACT_APP_SOCKET_URL;
+const ENDPOINT = "https://socket-ecommerce-tu68.onrender.com/";
 const socketId = socketIO(ENDPOINT, { transports: ["websocket"] });
 
 const UserInbox = () => {
@@ -62,8 +62,8 @@ const UserInbox = () => {
 
   useEffect(() => {
     if (user) {
-      const userId = user?._id;
-      socketId.emit("addUser", userId);
+      const sellerId = user?._id;
+      socketId.emit("addUser", sellerId);
       socketId.on("getUsers", (data) => {
         setOnlineUsers(data);
       });
@@ -272,7 +272,6 @@ const MessageList = ({
     const getUser = async () => {
       try {
         const res = await axios.get(`${server}/shop/get-shop-info/${userId}`);
-
         setUser(res.data.shop);
       } catch (error) {
         console.log(error);
@@ -296,7 +295,7 @@ const MessageList = ({
     >
       <div className="relative">
         <img
-          src={`${backend_url}${userData?.avatar}`}
+          src={`${backend_url}${user?.avatar}`}
           alt=""
           className="w-[50px] h-[50px] rounded-full"
         />
@@ -307,7 +306,7 @@ const MessageList = ({
         )}
       </div>
       <div className="pl-3">
-        <h1 className="text-[18px]">{userData?.name}</h1>
+        <h1 className="text-[18px]">{user?.name}</h1>
         <p className="text-[16px] text-[#000c]">
           {data?.lastMessageId !== userData?._id
             ? "You:"
