@@ -10,11 +10,9 @@ const Hero = () => {
           <h1
             className={`text-[35px] leading-[1.2] 700px:text-[60px] text-[#000000] font-[700] capitalize`}
           >
-            New Top Product High Quality
-          </h1>
+            Your One-Stop Shop for All Things Oil</h1>
           <p className="pt-5 text-[16px] font-[Poppins] font-[400] text-[#000000ba]">
-            Excepteur sint occaecat cupidatat non proident 
-          </p>
+          Your Reliable Source for Ordering Oil Online        </p>
           <Link to="/products" className="inline-block">
             <div className={`${styles.button} mt-5`}>
               <span className="text-[#fff] font-[Poppins] text-[18px]">
@@ -23,7 +21,7 @@ const Hero = () => {
             </div>
           </Link>
         </div>
-        <img src="https://www.pngkit.com/png/detail/66-663677_rolls-royce-png-download-image-rolls-royce-phantom.png" alt="Mustang" className="w-[700px] h-auto object-contain" />
+        <img src="https://www.pngall.com/wp-content/uploads/5/Motor-Oil-PNG-Image.png" alt="Mustang" className="w-[700px] h-auto object-contain" />
       </div>
   );
 }; 
