@@ -7,7 +7,6 @@ import { server } from "../server";
 const SellerActivationPage = () => {
   const { activation_token } = useParams();
   const [error, setError] = useState(false);
-
   useEffect(() => {
     if (activation_token) {
       const sendRequest = async () => {
@@ -24,7 +23,8 @@ const SellerActivationPage = () => {
       };
       sendRequest();
     }
-  }, []);
+  }, [activation_token]); // Include activation_token in the dependency array
+  
 
   return (
     <div
